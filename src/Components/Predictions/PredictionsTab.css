@@ -1,0 +1,20 @@
+.predictions-container {
+    padding: 24px;
+    background-color: #f9f9f9;
+}
+
+.prediction-pass {
+    background-color: #e6f7ec !important; /* Light green */
+}
+
+.prediction-fail {
+    background-color: #fff1f0 !important; /* Light red */
+}
+
+.prediction-pass .MuiTableCell-body {
+    color: #228B22; /* Darker green text */
+}
+
+.prediction-fail .MuiTableCell-body {
+    color: #D93025; /* Darker red text */
+}
